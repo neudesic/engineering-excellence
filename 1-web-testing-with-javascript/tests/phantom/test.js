@@ -16,8 +16,6 @@ page.open('http://localhost:8088', function (status) {
             page.render('../tests/phantom/screenshot.png');
             phantom.exit();
         }
-
-
     });
 });
 
